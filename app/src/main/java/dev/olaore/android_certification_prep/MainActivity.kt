@@ -1,5 +1,8 @@
 package dev.olaore.android_certification_prep
 
+import android.app.Notification
+import android.app.NotificationManager
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -12,6 +15,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        showNotification("Notification Title 1", "Notification Title 2")
+    }
+
+    private fun showNotification(title: String, message: String) {
+        val builder: Notification.Builder = Notification.Builder(this)
+            .setContentTitle(title)
+            .setContentText(message)
+            .setSmallIcon(R.drawable.ic_launcher_background)
+
+        val manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        manager.notify(0, builder.build())
+    }
+
+    private fun showPopups() {
         showToast("This is the first message")
 
         Handler().postDelayed({
