@@ -1,3 +1,7 @@
 <resources>
   <string name="app_name">android-certification-prep</string>
+    <string name="enter_notification_title">Enter Notification Title</string>
+  <string name="enter_notification_description">Enter Notification Description</string>
+  <string name="send_via_channel_1">Send Via Channel 1</string>
+  <string name="send_via_channel_2">Send Via Channel 2</string>
 </resources>
