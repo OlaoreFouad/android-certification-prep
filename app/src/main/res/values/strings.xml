@@ -1,7 +1,13 @@
 <resources>
-  <string name="app_name">android-certification-prep</string>
+    <string name="app_name">android-certification-prep</string>
     <string name="enter_notification_title">Enter Notification Title</string>
-  <string name="enter_notification_description">Enter Notification Description</string>
-  <string name="send_via_channel_1">Send Via Channel 1</string>
-  <string name="send_via_channel_2">Send Via Channel 2</string>
+    <string name="enter_notification_description">Enter Notification Description</string>
+    <string name="send_via_channel_1">Send Via Channel 1</string>
+    <string name="send_via_channel_2">Send Via Channel 2</string>
+    <string name="select_image_text">Select Image</string>
+    <string name="select_blur_amount_text">Select Blur Amount</string>
+    <string name="radio_button_lv_1_text">Little Blurred</string>
+    <string name="radio_button_lv_2_text">More Blurred</string>
+    <string name="radio_button_lv_3_text">Most Blurred</string>
+    <string name="go_text">Go</string>
 </resources>
